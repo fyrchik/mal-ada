@@ -1,0 +1,11 @@
+name = "mal"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Evgenii Stratonikov"]
+maintainers = ["Evgenii Stratonikov <fyrchik@runbox.com>"]
+maintainers-logins = ["fyrchik"]
+
+executables = ["mal"]
+[[depends-on]]
+gnatcoll_readline = "^22.0.0"
